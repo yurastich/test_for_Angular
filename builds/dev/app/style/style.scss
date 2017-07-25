@@ -1,0 +1,18 @@
+@import "mixins";
+
+.brand, .address-bar{
+  display: block;
+}
+
+a{
+  cursor: pointer;
+}
+
+.nav{
+  a{
+    transition: all .3s;
+    &.active{
+      color: #A75501 !important;
+    }
+  }
+}
